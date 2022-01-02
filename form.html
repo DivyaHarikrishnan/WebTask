@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+  <form action="/flex1.html" method="post">
     <div style=" background-color:lightgrey;margin:5px;width: 650px;">
         
 <table cellspacing ="15">
@@ -110,19 +111,19 @@
         <option Value="Andhra Pradesh">Andhra Pradesh</option>
         </select></td>
     </tr>
-   <tr> 
+    <tr> 
         <td ><label for="zip">Zip Code:</label></td>
         <td><input type="text" name="Zip" > 
          <input type="text" name="zip1" Value="Optional" ></td> 
     </tr>
     <tr>
         <td ><label for="tel">Phone:</label></td>
-        <td><input type="tel" name="tel" ><br><span style="font-size: 12px;">(No Spaces or dashes)</span></td>
-        <td><select name="mobile" id="mobile" >
+        <td><input type="tel" name="tel" >
+        <select name="mobile" id="mobile" >
         <option value="" disabled selected>Mobile</Option>
         <option value="Mobile">Mobile</Option>
         <option Value="Landline">Landline</Option>
-        </select></td>
+        </select><br><span style="font-size: 12px;">(No Spaces or dashes)</span></td>
     </tr>
 </table>
     <br>
@@ -131,5 +132,6 @@
     <input type="reset" value="reset">
     </center>
     </div>
+</form>
     </body>
     </html>
